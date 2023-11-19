@@ -199,7 +199,8 @@
   /* Navbar
       ============================= */
   
-  .nav .nav-item + .nav-item {
+  .nav, 
+  .nav-item + .nav-item {
     display: flex;
     margin: 0;
     padding: 0;
