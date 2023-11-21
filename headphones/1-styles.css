@@ -48,6 +48,8 @@ body {
 .nav-link:hover {
   color: #FF6565;
 }
+  /* neroo */
+
 
 .section-hero {
   background-position: center;
@@ -90,3 +92,74 @@ body {
 p {
   margin-top: 50px;
 }
+
+     /*  "What we do" section */
+
+
+.section-what {
+  background-position: center;
+  background-color: white;
+  color: #fff;
+  padding: 180px 0;
+}
+
+.section-header {
+  max-width: 637px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 180px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.section-title {
+  color: black;
+  font-size: 32px;
+  margin-bottom: 10px;
+  margin-top: -80px;
+  text-align: center;
+}
+
+.section-text {
+  color: black;
+  font-size: 16px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.section-icons {
+  text-align: center;
+  background-color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.section-icons .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: -280px;
+}
+
+.icon {
+  margin: 0 10px;
+  font-size: 70px;
+  font-family: 'holberton_school-icon';
+  color: #FF6565;
+}
+
+.icon-title {
+  font-size:18px;
+}
+
+.icon.text {
+  font-size: 4px;
+  margin-right: 20px;
+  word-wrap: break-word;
+}
+
